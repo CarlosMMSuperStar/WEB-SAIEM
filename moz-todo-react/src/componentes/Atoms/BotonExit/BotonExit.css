@@ -1,0 +1,20 @@
+.menu-exit {
+    background-color: rgba(23, 7, 91, 1);
+    color: #ffffff;
+    border: none;
+    padding: 15px 60px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    position: absolute;
+    right: 20px; 
+    transform: translateY(-50%);
+    top: 10%;
+}
+
+.icon-exit {
+    font-size: 20px;
+    color: rgb(237, 229, 229);
+    width: 20px;
+    text-align: center;
+}

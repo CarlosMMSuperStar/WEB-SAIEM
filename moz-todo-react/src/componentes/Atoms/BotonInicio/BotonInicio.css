@@ -1,0 +1,26 @@
+.ButtonInicio {
+    background-color: rgba(61, 179, 205, 0.73);
+    color: #ffffff;
+    border: none;
+    padding: 15px 60px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    position: absolute;
+    left: 20px; 
+    top: 10%;
+    transform: translateY(-50%);
+}
+
+.ButtonInicio:hover {
+    background-color: rgba(23, 7, 91, 1);
+}
+
+.icon-BInicio {
+    font-size: 20px;
+    color: rgb(237, 229, 229);
+    width: 20px;
+    text-align: center;
+}
+
+

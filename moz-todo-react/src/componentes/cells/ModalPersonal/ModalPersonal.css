@@ -1,0 +1,15 @@
+.modal-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50vw;
+    max-width: 800px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    box-shadow: 24px;
+}
+.modal-box h2{
+    color: blue;
+}
+  

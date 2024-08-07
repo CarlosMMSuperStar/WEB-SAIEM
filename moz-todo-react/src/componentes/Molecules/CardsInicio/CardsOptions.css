@@ -1,0 +1,21 @@
+.card{
+    background-color: rgba(31, 145, 168, 1);
+    color: #ffffff;
+    padding: 15px 90px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 15%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+  }
+  .card p {
+    font-size: 27px;
+    color: white;
+  }
+  .card:hover {
+    background-color: #3700b3;
+    color: #ffffff;
+  }

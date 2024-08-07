@@ -1,0 +1,93 @@
+.Inputsagg {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.D-Alumno, .D-Tutor, .D-Diagnostico {
+    margin-bottom: 20px;
+}
+
+.D-Alumno input, .D-Tutor input, .D-Diagnostico input, .D-Alumno select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+
+h2, h4 {
+    color: #333;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 0;
+}
+
+label, #CO {
+    display: block;
+    font-weight: bold;
+    color: rgba(130, 130, 130, 1);
+    margin-bottom: 5px;
+}
+
+label input[type="date"] {
+    display: block;
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: rgba(130, 130, 130, 1);
+}
+
+.con1, .con2, .con3, .con4, .con5, .con6 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.con1 input, .con2 input, .con3 input, .con4 input, .con5 input, .con6 input, .con1 select {
+    flex: 1;
+}
+
+.botones {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.botones button {
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s;
+    color: white;
+    font-size: medium;
+    margin: 10px;
+}
+
+.uno:hover {
+    background-color: rgb(224, 17, 17);
+}
+
+.uno {
+    background-color: rgb(255, 0, 0);
+}
+
+.dos {
+    background-color: rgba(23, 7, 91, 1);
+}
+
+.dos:hover {
+    background-color: rgba(31, 145, 168, 1);
+}
+
+.icon-save, .icon-cancel {
+    font-size: 50px;
+}

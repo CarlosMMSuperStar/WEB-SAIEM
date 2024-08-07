@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.header-Edit {
+    background-color: rgba(31, 145, 168, 1);
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 44px;
+    font-weight: bold;
+}
+
+.image-left-Edit, .image-rigth-Edit {
+    height: 80px;
+    position: relative;
+}
+
+.image-left-Edit {
+    right: 300px;
+}
+
+.image-rigth-Edit {
+    left: 300px;
+}
+
+.D-Alumno-Edit, .D-Tutor-Edit, .D-Diagnostico-Edit, .D-Velocidad-Edit {
+    background-color: #ffffff;
+    padding: 30px;
+}
+
+.D-Alumno-Edit input, .D-Tutor-Edit input, .D-Diagnostico-Edit input, .D-Velocidad-Edit input {
+    display: block;
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 5px;
+    border: 1px solid rgba(224, 224, 224, 1);
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+h2, h4 {
+    color: #333;
+    font-weight: normal;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin: 0;
+    font-weight: bold;
+    color: rgba(130, 130, 130, 1);
+}
+
+label input[type="date"] {
+    display: block;
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 2px;
+    border: 1px solid rgba(224, 224, 224, 1);
+    border-radius: 4px;
+    font-size: 16px;
+    color: rgba(130, 130, 130, 1);
+    position: relative;
+    bottom: 3px;
+}
+
+.con1-Edit, .con2-Edit, .con3-Edit, .con4-Edit, .con5-Edit, .con6-Edit, .con7-Edit, .D-Tutor-Edit {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+}
+
+.Inputs-Edit {
+    width: 100%;
+    position: relative;
+}
+
+#inputTurno, #inputEstatus {
+    border-radius: 10px;
+    border: 1px solid rgba(224, 224, 224, 1);
+    color: rgb(147, 143, 143);
+    padding: 1em 3em;
+    margin: 10px 5px;
+}
+
+.botones-Edit {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espacio entre los botones */
+    margin: 100px 0 50px;
+}
+
+.botones-Edit button {
+    padding: 1em 3em;
+    border-radius: 10px;
+    border: none;
+    transition: background-color 0.3s;
+    color: rgba(224, 224, 224, 1);
+    font-size: medium;
+}
+
+.uno-Edit {
+    background-color: rgb(255, 0, 0);
+}
+
+.uno-Edit:hover {
+    background-color: rgb(224, 17, 17);
+}
+
+.dos-Edit {
+    background-color: rgba(23, 7, 91, 1);
+}
+
+.dos-Edit:hover {
+    background-color: rgba(31, 145, 168, 1);
+}
+
+.icon-save-Edit, .icon-cancel-Edit {
+    font-size: 50px;
+}

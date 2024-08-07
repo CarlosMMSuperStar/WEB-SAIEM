@@ -1,0 +1,57 @@
+
+
+.table {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  width: 80%;
+  
+}
+
+.table table {
+  width: 100%; /* Ajusta esto según sea necesario */
+  margin-top: 80px; /* Espacio superior opcional */
+  border-collapse: collapse;
+}
+
+.table th, .table td {
+  padding: 20px;
+  text-align: center;
+  
+}
+
+.table th {
+  background-color: transparent;
+  color: #3700b3;
+}
+
+.table button {
+  background-color: rgba(31, 145, 168, 1);
+  color: #ffffff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.table button:hover {
+  background-color: #3700b3;
+}
+
+.add-user {
+  position: absolute;
+  background-color: rgba(61, 179, 205, 0.73);
+  cursor: pointer;
+  color: #ffffff;
+  border: none;
+  padding: 1em 5em;
+  border-radius: 5px;
+  left: 50%;
+  transform: translateX(-50%); /* Centrar horizontalmente */
+  margin-top: 20px; /* Espacio superior opcional */
+  
+}
+  

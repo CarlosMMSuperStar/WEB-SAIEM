@@ -1,0 +1,130 @@
+
+
+.search-container-alumnos {
+  display: flex;
+  margin: 10px;
+  position: relative;
+  ;
+}
+#search-container-alumnos-estatus{
+  margin-right: 5px;
+}
+
+#filter{
+  position: relative;
+  background-color: rgba(31, 145, 168, 1);
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+#filter:hover {
+  background-color: #3700b3;
+}
+
+.search-container-alumnos input {
+  margin-right: 5px;
+  border-radius: 5px;
+  border:  1px solid rgba(224, 224, 224, 1);
+  }
+
+
+.search-container-alumnos-aplicarBusqueda{
+    background-color: rgba(31, 145, 168, 1);
+  color: #ffffff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  margin: 5px;
+  transition: background-color 0.3s;
+}
+.search-container-alumnos-aplicarBusqueda:hover{
+  background-color: #3700b3;
+}
+
+#search-container-alumnos-estatus{
+  border-radius: 5px;
+  border:  1px solid rgba(224, 224, 224, 1);
+  color: rgb(147, 143, 143);
+}
+
+
+
+.add-Alumno {
+  background-color: rgba(31, 145, 168, 1);
+  color: #ffffff;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  margin: 5px;
+  transition: background-color 0.3s;
+}
+
+.add-Alumno:hover {
+  background-color: #3700b3;
+}
+
+.table-Alumnos {
+  position: relative;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+.table-Alumnos table {
+  width: 100%;
+  border-collapse: collapse; /* Ensure table borders are collapsed */
+}
+
+.table-Alumnos th,
+.table-Alumnos td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #3700b3; /* Add border to table cells */
+}
+
+.table-Alumnos th {
+  background-color: transparent;
+  color: #3700b3;
+}
+
+.table-Alumnos button {
+  background-color: rgba(31, 145, 168, 1);
+  color: #ffffff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.table-Alumnos button:hover {
+  background-color: #3700b3;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  width: 90%; /* Make modal responsive */
+  max-width: 500px; /* Set a max width for larger screens */
+  box-sizing: border-box; /* Include padding in width calculation */
+}

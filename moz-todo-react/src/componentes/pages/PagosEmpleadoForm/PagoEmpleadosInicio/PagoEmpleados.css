@@ -1,0 +1,132 @@
+
+  .search-container-pagos-empleados {
+    display: flex;
+    margin: 10px;
+    position: relative;
+    ;
+  }
+  #search-container-pagos-estatus-empleados{
+    margin-right: 5px;
+  }
+  
+  
+  
+  .search-container-pagos-empleados input {
+    margin-right: 5px;
+    border-radius: 5px;
+    border:  1px solid rgba(224, 224, 224, 1);
+    }
+  
+  
+  
+  
+    #search-container-pagos-aplicarBusqueda-empleados{
+    background-color: rgba(31, 145, 168, 1);
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    margin: 5px;
+    transition: background-color 0.3s;
+  }
+  #search-container-pagos-aplicarBusqueda:hover{
+    background-color: #3700b3;
+  }
+  
+  #search-container-pagos-estatus{
+    border-radius: 5px;
+    border:  1px solid rgba(224, 224, 224, 1);
+    color: rgb(147, 143, 143);
+  }
+  
+    
+    .add-pago-empleados{
+      background-color: rgba(31, 145, 168, 1);
+      color: #ffffff;
+      border: none;
+      padding: 5px 15px;
+      border-radius: 5px;
+      font-size: 20px;
+      cursor: pointer;
+      display: flex;
+      margin: 5px;
+      transition: background-color 0.3s;
+    }
+  
+    #filter-pago{
+      position: relative;
+      background-color: rgba(31, 145, 168, 1);
+      color: #ffffff;
+      display: flex;
+      justify-content: center;
+      font-size: 15px;
+      border: none;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+      padding: 0.5em;
+    }
+    #filter-pago:hover {
+      background-color: #3700b3;
+    }
+    
+    .add-pago-empleados:hover {
+      background-color: #3700b3;
+    }
+    
+    .table-tramites-empleados {
+      position: relative;
+      padding: 20px;
+      justify-content: center;
+  
+      
+    }
+    
+    .table-tramites-empleados table {
+      width: 100%;
+    }
+    
+    .table-tramites-empleados th, .table-tramites-empleados td {
+      padding: 10px;
+      text-align: center;
+    }
+    
+    .table-tramites-empleados th {
+      background-color: transparent;
+      color: #3700b3;
+    }
+    
+    .table-tramites-empleados button {
+      background-color: rgba(31, 145, 168, 1);
+      color: #ffffff;
+      border: none;
+      padding: 5px 10px;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+    }
+    
+    .table-tramites-empleados button:hover {
+      background-color: #3700b3;
+    }
+    .modal {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+      width: 90%;
+      max-width: 500px;
+      box-sizing: border-box; 
+    }
+
+    a{
+        color: transparent;
+    }

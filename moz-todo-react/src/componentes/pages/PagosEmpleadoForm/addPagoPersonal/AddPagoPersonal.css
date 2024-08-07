@@ -1,0 +1,78 @@
+#inputFecha{
+    font-family: monospace;
+    padding-inline-start: 1px;
+    cursor: default;
+    overflow: hidden;
+    padding: 10px;
+    position: relative;
+}
+#inputFecha{
+    left: 680px;
+    margin: 10px;
+}
+
+.pagoPersonal input{
+    margin-right: 5px;
+    border-radius: 5px;
+    border:  1px solid rgba(224, 224, 224, 1);
+    padding: 1em 5em;
+}
+
+.Buscar{
+    background-color: rgba(31, 145, 168, 1);
+    color: #ffffff;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s;
+}
+.calcular{
+    background-color: rgba(31, 145, 168, 1);
+    color: #ffffff;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s;
+}
+#inputIdPersonal{
+    border-radius: 5px;
+    border:  1px solid rgba(224, 224, 224, 1);
+    color: rgb(147, 143, 143);
+    margin-top: 10px;
+    padding: 1em 5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

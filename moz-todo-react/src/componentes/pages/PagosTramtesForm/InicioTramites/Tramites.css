@@ -1,0 +1,176 @@
+.header-Pagos {
+  position: relative;
+  background-color: rgba(31, 145, 168, 1);
+  padding: 30px 0;
+  width: 100%;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  }
+
+.home-left-button-pagos,
+.exit-right-button-pagos {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #ffffff;
+  border: none;
+  padding: 5px 40px;
+  border-radius: 5px;
+  white-space: nowrap; /* Prevent button text from wrapping */
+}
+  
+.home-left-button-pagos {
+  background-color: rgba(61, 179, 205, 0.73);
+  left: 20px; /* Adjust this to suit your design */
+  transition: background-color 0.3s;
+
+}
+.home-left-button-pagos:hover{
+  background-color: rgba(23, 7, 91, 1);
+
+}
+
+.exit-right-button-pagos {
+  background-color: rgba(23, 7, 91, 1);
+  right: 20px; /* Adjust this to suit your design */
+  transition: background-color 0.3s;
+}
+.exit-right-button-pagos:hover{
+background-color: rgba(61, 179, 205, 0.73);
+}
+  
+.icon-exit-pagos,
+.icon-home-pagos {
+  font-size: 20px;
+  color: rgb(237, 229, 229);
+}
+  
+.search-container-pagos {
+  display: flex;
+  margin: 10px;
+  position: relative;
+  ;
+}
+#search-container-pagos-estatus{
+  margin-right: 5px;
+}
+
+
+
+.search-container-pagos input {
+  margin-right: 5px;
+  border-radius: 5px;
+  border:  1px solid rgba(224, 224, 224, 1);
+  }
+
+
+
+
+  #search-container-pagos-aplicarBusqueda{
+    background-color: rgba(31, 145, 168, 1);
+  color: #ffffff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  margin: 5px;
+  transition: background-color 0.3s;
+}
+#search-container-pagos-aplicarBusqueda:hover{
+  background-color: #3700b3;
+}
+
+#search-container-pagos-estatus{
+  border-radius: 5px;
+  border:  1px solid rgba(224, 224, 224, 1);
+  color: rgb(147, 143, 143);
+}
+
+  
+  .add-pago{
+    background-color: rgba(31, 145, 168, 1);
+    color: #ffffff;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    margin: 5px;
+  }
+
+  #filter-pago{
+    position: relative;
+    background-color: rgba(31, 145, 168, 1);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  #filter-pago:hover {
+    background-color: #3700b3;
+  }
+  
+  .add-pago:hover {
+    background-color: #3700b3;
+  }
+  
+  .table-tramites {
+    position: relative;
+    padding: 20px;
+    justify-content: center;
+
+    
+  }
+  
+  .table-tramites table {
+    width: 100%;
+  }
+  
+  .table-tramites th, .table-tramites td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .table-tramites th {
+    background-color: transparent;
+    color: #3700b3;
+  }
+  
+  .table-tramites button {
+    background-color: rgba(31, 145, 168, 1);
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .table-tramites button:hover {
+    background-color: #3700b3;
+  }
+  .modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    width: 90%; /* Make modal responsive */
+    max-width: 500px; /* Set a max width for larger screens */
+    box-sizing: border-box; /* Include padding in width calculation */
+  }
+  

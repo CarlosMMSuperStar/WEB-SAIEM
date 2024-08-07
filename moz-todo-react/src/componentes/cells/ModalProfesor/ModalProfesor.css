@@ -1,0 +1,11 @@
+.modal-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50vw; /* Cambiar el tamaño del modal a 80% del ancho de la ventana */
+    max-width: 800px; /* Asegurarse de que no sea mayor de 600px */
+    background-color: rgb(255, 255, 255);
+    border: none;
+    box-shadow: 24px;
+}

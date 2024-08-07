@@ -1,0 +1,74 @@
+.Inputadd {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.Inputadd p {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.pagoPersonal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box_personal, .searchPersonal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 10px;
+}
+
+.box_personal input, .box_personal select, 
+.searchPersonal input, .searchPersonal select, .searchPersonal button {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 5px;
+    border: 1px solid rgba(224, 224, 224, 1);
+    color: rgb(147, 143, 143);
+    padding: 1em  ;
+    font-size: 20px;
+
+}
+
+.searchPersonal button {
+    background-color: rgba(31, 145, 168, 1);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.searchPersonal button:hover {
+    background-color: rgba(23, 7, 91, 1);
+}
+
+ .searchPersonal select {
+
+    left: 25%;
+    position: relative;
+}
+
+
+
+/*input[type="password"] {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 5px;
+    border: 1px solid rgba(224, 224, 224, 1);
+    color: rgb(147, 143, 143);
+    padding: 1em;
+    margin: 10px 0;
+    font-size: 20px;
+}

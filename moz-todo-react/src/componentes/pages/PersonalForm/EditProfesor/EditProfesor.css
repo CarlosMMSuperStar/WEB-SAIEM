@@ -1,0 +1,18 @@
+#selectEspecialidad,#selectEstatus, #selectMateria{
+    border-radius: 10px;
+    border: 1px solid rgba(224, 224, 224, 1);
+    color: rgb(147, 143, 143);
+    padding: 0.5em 3em;
+    margin: 15px 5px;
+    margin-right: 20PX;
+}
+
+.con1p button{
+    padding: 5px 18px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(31, 145, 168, 1);
+    color: white;
+    transition: background-color 0.3s;
+}

@@ -1,0 +1,67 @@
+.EditUser {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 50px;
+}
+
+.Edit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.editU {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 20px;
+}
+
+.editU div {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.Edit input, .Edit select {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 5px;
+    border: 1px solid rgba(224, 224, 224, 1);
+    color: rgb(147, 143, 143);
+    padding: 1em;
+    margin: 10px 0;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.Edit button {
+    background-color: rgba(31, 145, 168, 1);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 5px;
+    border: 1px solid rgba(224, 224, 224, 1);
+    padding: 1em;
+    margin: 10px 0;
+    font-size: 20px;
+    margin-left: 10px;
+
+}
+
+.Edit button:hover {
+    background-color: rgba(23, 7, 91, 1);
+}
+
+

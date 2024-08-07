@@ -1,0 +1,39 @@
+.footer {
+    background-color:rgba(61, 179, 205, 0.73); /* Cambia este color según los colores de tu aplicación */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 15%;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+  }
+  
+  .footer-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .footer-nav ul li {
+    margin: 0 10px;
+  }
+  
+  .footer-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-nav ul li a:hover {
+    color: #bbb;
+  }

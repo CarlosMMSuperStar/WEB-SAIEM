@@ -1,0 +1,159 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.image-add-right {
+    height: 100px;
+    position: absolute;
+    left: 100px;
+    top: 25px;
+}
+
+.image-add-left {
+    height: 100px;
+    position: absolute;
+    right: 100px;
+    top: 25px;
+}
+
+.tramite {
+    background-color: #ffffff;
+    padding: 30px;
+}
+
+.tramite input,
+.D-Tutor input,
+.D-Diagnostico input,
+.D-Velocidad input {
+    display: block;
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid rgba(224, 224, 224, 1);
+    border-radius: 8px;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+h2,
+h4 {
+    color: #333;
+    font-weight: normal;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin: 0px 0;
+    font-weight: bold;
+    color: rgba(130, 130, 130, 1);
+}
+
+.fecha {
+    display: block;
+    padding: 10px;
+    border: 1px solid rgba(224, 224, 224, 1);
+    border-radius: 4px;
+    font-size: 16px;
+    color: rgba(130, 130, 130, 1);
+    position: relative;
+    
+}
+
+.con2,
+.con3,
+.con4,
+.con5,
+.con6,
+.con7 {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+}
+
+.D-Tutor {
+    display: flex;
+}
+
+.Inputagg {
+    width: 100%;
+    position: relative;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.botones button {
+    padding: 1em 4em;
+    border-radius: 10px;
+    border: none;
+    transition: background-color 0.3s;
+    color: rgba(224, 224, 224, 1);
+    font-size: medium;
+}
+
+.uno:hover {
+    background-color: rgb(224, 17, 17);
+}
+
+.uno {
+    background-color: rgb(255, 0, 0);
+}
+
+.dos {
+    background-color: rgba(23, 7, 91, 1);
+}
+
+.dos:hover {
+    background-color: rgba(31, 145, 168, 1);
+}
+
+.icon-save,
+.icon-cancel {
+    font-size: 50px;
+}
+
+
+.Inputadd {
+    text-align: center;
+    color: rgba(130, 130, 130, 1);
+    font-size: 20px;
+}
+
+#inputId_alumno{
+    display: block;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid rgba(224, 224, 224, 1);
+    border-radius: 4px;
+    font-size: 15px;
+    color: rgba(130, 130, 130, 1);
+    bottom: 3px;
+    position:relative;
+}
+
+.con1 button {
+    background-color: rgba(31, 145, 168, 1);
+    color: #ffffff;
+    border: none;
+    padding: .7em 5em;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s;
+}
+.con1 button:hover{
+    background-color: #3700b3;
+}
